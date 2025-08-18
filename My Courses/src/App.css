@@ -1,0 +1,39 @@
+/* App.css veya yeni oluşturacağınız bir CSS dosyası */
+
+.course-container {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.course-image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+.course-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.course-description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.course-details {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 4px;
+}
